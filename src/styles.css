@@ -1,0 +1,50 @@
+.App{
+    font-family: sans-serif;
+    text-align: center;
+  }  
+  .user{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin: 5px;
+    position: relative;
+    left: 55%;
+    top: 450px;
+  }
+  
+  .container{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+  }  
+
+  .contain{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+  }
+  .text-start {
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .text-starting {
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .left {
+    background-color: bisque;
+    left: 0;
+  }
